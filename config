@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "servidor"]
+	url = file://162.16.0.1
+	fetch = +refs/heads/*:refs/remotes/servidor/*
+[remote "servidores"]
+	url = file://172.19.71.5/home/lab01/moveis-ecologicos.git/
+	fetch = +refs/heads/*:refs/remotes/servidores/*
+[remote "origin"]
+	url = https://github.com/alemao93/moveis-ecologicos.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
